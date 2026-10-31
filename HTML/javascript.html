@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> 
+            HTML Javascript Example
+        </title>
+    </head>
+    <body>
+        <h2>Dynamic Content Example</h2>
+        <p id="p-demo">Hello World</p>
+        <button onclick="changeContent()">changeContent></button>
+        <h2>Dynamic Style Example</h2>
+        <p id="p2-demo">Hello World</p>
+        <button onclick="changeStyle()">Change Style</button>
+        <h2>Hiding & Showing Example</h2>
+        <div id="hide-and-showing-demo" style="width: 200px; height: 200px;background-color:gray" >
+            I'm content of div
+        </div>
+        <br>
+        <button onclick="show();">Show Div</button>
+        <button onclick="hide();"> Hide Div</button>
+        <!-- Code for Javascript Logic -->
+         <h2>Dynamic  Image Example</h2>
+         <img id="change-img-demo" src="wallpaper.jpg" style="width: 500px; height: 350px"/>
+         <br>
+         <button onclick ="changeImage();">Change Image</button>
+        <script type="text/javascript">
+
+            function changeContent(){
+                document.getElementById("p-demo").innerText = "I love coding"
+
+            }
+            function changeStyle(){
+                document.getElementById('p2-demo').style.fontSize ="50px";
+                document.getElementById('p2-demo').style.color ='gold';
+                document.getElementById('p2-demo').style.fontStyle ='#ul-square'
+            }
+            function show(){
+                document.getElementById('hide-and-showing-demo').style.display ="block";
+
+            }
+            function hide(){
+                document.getElementById('hide-and-showing-demo').style.display ='none'
+            }
+            function changeImage(){
+                document.getElementById("change-img-demo").src ="image/wallper2.jpg";
+            }
+            
+          //  <!-- alert("Hi I'm alert box"); -->
+
+        </script>
+    </body>
+</html>
