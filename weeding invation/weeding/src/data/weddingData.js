@@ -109,8 +109,8 @@ const weddingData = {
     maxGuests: 4,
   },
   music: {
-    src: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-    label: 'A little music',
+    src: '/music/elody.mp3',
+    label: 'elody',
   },
   copy: {
     subtitle: 'A day to celebrate a lifetime of love',
