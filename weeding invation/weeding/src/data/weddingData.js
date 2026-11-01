@@ -117,7 +117,7 @@ const weddingData = {
     footerThanks: 'Thank you for being part of our story.',
   },
   heroImage:
-    '/image/welcome.jpg',
+    '/images/welcome.jpg',
 };
 
 export default weddingData;
