@@ -117,7 +117,7 @@ const weddingData = {
     footerThanks: 'Thank you for being part of our story.',
   },
   heroImage:
-    'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2200&q=90',
+    '/image/welcome.jpg',
 };
 
 export default weddingData;
